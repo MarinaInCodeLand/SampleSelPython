@@ -34,4 +34,4 @@ jobs:
 
     - name: Run tests
       run: |
-        pytest test_cases --html=report.html 
+        pytest --html=report.html 
